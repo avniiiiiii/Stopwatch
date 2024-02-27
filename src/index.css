@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .stopwatch-container {
+    position: relative;
+  }
+  
+  .stopwatch {
+    position: relative;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .display {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .btn-start, .btn-reset, .btn-stop {
+    background-color: #4CAF50; /* Green color for Start button */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 4.5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-reset {
+    background-color: #f44336; /* Red color for Reset button */
+  }
+  
+  .btn-stop {
+    background-color: #2196F3; /* Blue color for Stop button */
+  }
+  
+  .btn {
+    margin: 0 8px; /* Add margin between buttons */
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+ 
+  
+  @media (max-width: 600px) {
+    .stopwatch {
+      width: 80%;
+      height: 80%;
+    }
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .stopwatch-container {
+    position: relative;
+  }
+  
+  .stopwatch {
+    position: relative;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .display {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .btn-start, .btn-reset, .btn-stop {
+    background-color: #4CAF50; /* Green color for Start button */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-reset {
+    background-color: #f44336; /* Red color for Reset button */
+  }
+  
+  .btn-stop {
+    background-color: #2196F3; /* Blue color for Stop button */
+  }
+  
+  .btn {
+    margin: 0 10px; /* Add margin between buttons */
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 600px) {
+    .stopwatch {
+      width: 80%;
+      height: 80%;
+    }
+  
+    .display {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    
+    .controls {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .btn {
+      margin: 10px;
+    }
+  }
