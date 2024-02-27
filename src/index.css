@@ -20,7 +20,7 @@
   .stopwatch {
     position: relative;
     background-color: #fff;
-    border-radius: 50%;
+    border-radius: 50% ;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 300px;
@@ -34,6 +34,7 @@
   .display {
     font-size: 4rem;
     margin-bottom: 20px;
+    
   }
   
   .controls {
